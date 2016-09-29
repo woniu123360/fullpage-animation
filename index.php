@@ -32,44 +32,69 @@
 	<meta name="theme-color" content="#ffffff">
 
 
-	<title>:: Page ::</title>
+	<title>:: FullPage ::</title>
 
 	<!--CSS-->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 
-	<!--HEADER-->
-	<header>
-		<div class="container">
-			<nav>
-				<ul class="nav">
-					<li><a href="" title=""></a></li>
-				</ul>
-			</nav>
+	<div id="fullpage">
+		<!--1-->
+		<div class="section section--1">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-text">
+						<div id="text-1">
+							<h1>Hello World</h1>
+							<p>Welcome website</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="section-thumb">
+						<img src="images/1.png" alt="" class="img-1">
+					</div>
+				</div>
+			</div>
 		</div>
-	</header>
-	<!--HEADER-->
+		<!--1-->
 
-	<!--SECTION-->
-	<div class="home">
-		<div class="container">
-			<section>
-				<h1>Home</h1>
-				<p>Text</p>
-				<button type="button" class="btn btn-default round">Go!</button>
-			</section>
+		<!--2-->
+		<div class="section">
+			<div class="row">
+				<div class="col-md-6">6</div>
+				<div class="col-md-6">6</div>
+			</div>
 		</div>
+		<!--2-->
+
+		<!--3-->
+		<div class="section section--3">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-text">
+						<div class="text-3">
+							<h1>Hello <span>World</span></h1>
+							<p>Welcome website</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="section-thumb">
+						<img src="images/3.png" alt="" class="img-3">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--3-->
+
+		<!--4-->
+		<div class="section">
+			
+		</div>
+		<!--4-->
 	</div>
-	<!--SECTION-->
-
-	<!--FOOTER-->
-	<footer>
-		<div class="container">
-			<p> <?php echo date('Y') ?></p>
-		</div>
-	</footer>
-	<!--FOOTER-->
 
 	<!--JS-->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>

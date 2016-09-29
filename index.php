@@ -39,19 +39,20 @@
 </head>
 <body>
 
+	<!--FULLPAGE-->
 	<div id="fullpage">
 		<!--1-->
-		<div class="section section--1">
-			<div class="row">
-				<div class="col-md-6">
+		<div class="section">
+			<div class="row full--page">
+				<div class="col-md-6 full--height">
 					<div class="section-text">
-						<div id="text-1">
+						<div class="text-1">
 							<h1>Hello World</h1>
 							<p>Welcome website</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 full--height">
 					<div class="section-thumb">
 						<img src="images/1.png" alt="" class="img-1">
 					</div>
@@ -59,42 +60,27 @@
 			</div>
 		</div>
 		<!--1-->
-
 		<!--2-->
 		<div class="section">
-			<div class="row">
-				<div class="col-md-6">6</div>
-				<div class="col-md-6">6</div>
-			</div>
-		</div>
-		<!--2-->
-
-		<!--3-->
-		<div class="section section--3">
-			<div class="row">
-				<div class="col-md-6">
+			<div class="row full--page">
+				<div class="col-md-6 full--height">
 					<div class="section-text">
-						<div class="text-3">
-							<h1>Hello <span>World</span></h1>
+						<div class="text-2">
+							<h1>Hello World</h1>
 							<p>Welcome website</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 full--height">
 					<div class="section-thumb">
-						<img src="images/3.png" alt="" class="img-3">
+						<img src="images/2.png" alt="" class="img-2">
 					</div>
 				</div>
 			</div>
 		</div>
-		<!--3-->
-
-		<!--4-->
-		<div class="section">
-			
-		</div>
-		<!--4-->
+		<!--2-->
 	</div>
+	<!--FULLPAGE-->
 
 	<!--JS-->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>

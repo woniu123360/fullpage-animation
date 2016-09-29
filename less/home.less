@@ -6,18 +6,20 @@
 	background-color: #FFE5DB;
 }
 
-.line--1{
-	width: 0px;
-	height: 7px;
-	background-color: @color--primary;
-	margin: 0 auto;
-}
 
 .section-text{
-	width: 100%;
-	position: relative;
+	//Position text
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
 
-	#text-1,
+	.text-1,
+	.text-2,
 	.text-3{
 		opacity: 0;
 	}
@@ -35,17 +37,31 @@
 }
 
 .section-thumb{
-	width: 100%;
-	position: relative;
-	overflow: hidden;
+	//Position
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
 
 	img.img-1{
+		opacity: 0;
+		transform: matrix(1, 0, 0, 1, 500, 00);
+	}
+	img.img-2{
 		opacity: 0;
 		transform: matrix(1, 0, 0, 1, 500, 00);
 	}
 	img.img-3{
 		opacity: 0;
 		transform: matrix(1, 0, 0, 1, 500, 00);
+	}
+	img.img-4{
+		opacity: 0;
+		//transform: matrix(1, 0, 0, 1, 500, 00);
 	}
 }
 

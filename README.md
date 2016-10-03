@@ -21,6 +21,19 @@ Add jQuery
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 ```
 
+### Visualize DOM
+
+```
+	<div id="fullpage">
+		<div class="section">
+			<h1>One</h1>
+		</div>
+		<div class="section">
+			<h1>Two</h1>
+		</div>
+	</div>
+```
+
 Add main.js ejecute
 
 ```

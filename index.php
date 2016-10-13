@@ -54,7 +54,7 @@
 				</div>
 				<div class="col-md-6 full--height">
 					<div class="section-thumb">
-						<img src="images/1.png" alt="" class="img-1">
+						<img src="images/1.png" alt="" class="img--1">
 					</div>
 				</div>
 			</div>
@@ -73,12 +73,31 @@
 				</div>
 				<div class="col-md-6 full--height">
 					<div class="section-thumb">
-						<img src="images/2.png" alt="" class="img-2">
+						<img src="images/2.png" alt="" class="img--2">
 					</div>
 				</div>
 			</div>
 		</div>
 		<!--2-->
+		<!--3-->
+		<div class="section">
+			<div class="row full--page">
+				<div class="col-md-6 full--height">
+					<div class="section-thumb">
+						<img src="images/3.jpg" alt="" class="img--3">
+					</div>
+				</div>
+				<div class="col-md-6 full--height">
+					<div class="section-text">
+						<div class="text-2">
+							<h1>Hello World</h1>
+							<p>Welcome website</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--3-->
 	</div>
 	<!--FULLPAGE-->
 

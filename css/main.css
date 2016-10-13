@@ -7323,19 +7323,22 @@ html.fp-enabled,
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-.section-thumb img.img-1 {
+.section-thumb img.img--1 {
+  width: 100%;
   opacity: 0;
   transform: matrix(1, 0, 0, 1, 500, 0);
 }
-.section-thumb img.img-2 {
+.section-thumb img.img--2 {
+  width: 100%;
   opacity: 0;
   transform: matrix(1, 0, 0, 1, 500, 0);
 }
-.section-thumb img.img-3 {
+.section-thumb img.img--3 {
+  width: 100%;
   opacity: 0;
-  transform: matrix(1, 0, 0, 1, 500, 0);
 }
-.section-thumb img.img-4 {
+.section-thumb img.img--4 {
+  width: 100%;
   opacity: 0;
 }
 /* =Responsive

@@ -34,6 +34,12 @@ Add jQuery
 	</div>
 ```
 
+# CSS modifiers
+```
+	.full--page
+	.full--height
+```
+
 Add main.js ejecute
 
 ```

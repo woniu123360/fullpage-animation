@@ -3,9 +3,8 @@
 */
 .section{
 	text-align: center;
-	background-color: #FFE5DB;
+	background-color: @color--primary;
 }
-
 
 .section-text{
 	//Position text
@@ -18,10 +17,15 @@
 	-ms-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 
-	.text-1,
-	.text-2,
-	.text-3{
+	.text--1,
+	.text--2{
 		opacity: 0;
+		transform: matrix(1, 0, 0, 1, -500, 00);
+	}
+	.text--3,
+	.text--4{
+		opacity: 0;
+		transform: matrix(1, 0, 0, 1, 500, 00);
 	}
 	h1{
 		.title;
@@ -51,21 +55,29 @@
 		width: 100%;
 		opacity: 0;
 		transform: matrix(1, 0, 0, 1, 500, 00);
+		-ms-transform: matrix(1, 0, 0, 1, 500, 00); /* IE 9 */
+		-webkit-transform: matrix(1, 0, 0, 1, 500, 00); /* Safari */
 	}
 	img.img--2{
 		width: 100%;
 		opacity: 0;
 		transform: matrix(1, 0, 0, 1, 500, 00);
+		-ms-transform: matrix(1, 0, 0, 1, 500, 00); /* IE 9 */
+		-webkit-transform: matrix(1, 0, 0, 1, 500, 00); /* Safari */
 	}
 	img.img--3{
 		width: 100%;
 		opacity: 0;
-		//transform: matrix(1, 0, 0, 1, 500, 00);
+		transform: matrix(1, 0, 0, 1, -500, 0);
+		-ms-transform: matrix(1, 0, 0, 1, -500, 0); /* IE 9 */
+		-webkit-transform: matrix(1, 0, 0, 1, -500, 0); /* Safari */
 	}
 	img.img--4{
 		width: 100%;
 		opacity: 0;
-		//transform: matrix(1, 0, 0, 1, 500, 00);
+		transform: matrix(1, 0, 0, 1, -500, 0);
+		-ms-transform: matrix(1, 0, 0, 1, -500, 0); /* IE 9 */
+		-webkit-transform: matrix(1, 0, 0, 1, -500, 0); /* Safari */
 	}
 }
 

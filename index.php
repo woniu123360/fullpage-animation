@@ -4,13 +4,13 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<meta name="description" content="FullPage Animated - W e b s i t e">
+	<meta name="keywords" content="FullPage, js, jf, gdl, animated, animation, fullpage.js">
 	<!-- Control the behavior of search engine crawling and indexing -->
 	<meta name="robots" content="index,follow,noodp"><!-- All Search Engines -->
 	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
 	<!-- Does the same function as the keywords tag -->
-	<meta name="category" content="">
+	<meta name="category" content="Web Development">
 
 	<!--FAVICONS-->
 	<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
@@ -31,13 +31,34 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-
 	<title>:: FullPage ::</title>
 
 	<!--CSS-->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-XXXXX-Y', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
 </head>
 <body>
+
+	<!--LOADER-->
+	<div class="loader" id="loader">
+		<div class="line--1"></div>
+		<div class="line--2"></div>
+		<div class="loader__container">
+			<h1>Fullpage Animated</h1>
+		</div>
+	</div>
+	<!--LOADER-->
 
 	<!--FULLPAGE-->
 	<div id="fullpage">
@@ -46,9 +67,9 @@
 			<div class="row full--page">
 				<div class="col-md-6 full--height">
 					<div class="section-text">
-						<div class="text-1">
-							<h1>Hello World</h1>
-							<p>Welcome website</p>
+						<div class="text--1">
+							<h1>Hello world welcome</h1>
+							<p>Website</p>
 						</div>
 					</div>
 				</div>
@@ -65,15 +86,15 @@
 			<div class="row full--page">
 				<div class="col-md-6 full--height">
 					<div class="section-text">
-						<div class="text-2">
-							<h1>Hello World</h1>
-							<p>Welcome website</p>
+						<div class="text--2">
+							<h1>Animated Fullpage</h1>
+							<p>Scroll</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6 full--height">
 					<div class="section-thumb">
-						<img src="images/2.png" alt="" class="img--2">
+						<img src="images/2.jpg" alt="" class="img--2">
 					</div>
 				</div>
 			</div>
@@ -89,15 +110,34 @@
 				</div>
 				<div class="col-md-6 full--height">
 					<div class="section-text">
-						<div class="text-2">
-							<h1>Hello World</h1>
-							<p>Welcome website</p>
+						<div class="text--3">
+							<h1>TweenMax motion</h1>
+							<p>Graphics</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!--3-->
+		<!--4-->
+		<div class="section">
+			<div class="row full--page">
+				<div class="col-md-6 full--height">
+					<div class="section-thumb">
+						<img src="images/4.jpg" alt="" class="img--4">
+					</div>
+				</div>
+				<div class="col-md-6 full--height">
+					<div class="section-text">
+						<div class="text--4">
+							<h1>Thanks You</h1>
+							<p>Repositorie in Github</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--4-->
 	</div>
 	<!--FULLPAGE-->
 
@@ -106,18 +146,6 @@
 	<script src="js/jquery.min.js" type="text/javascript"></script>
 	<script src="js/plugins.js" type="text/javascript"></script>
 	<script src="js/main.js" type="text/javascript"></script>
-
-	<!-- Google Analytics -->
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-XXXXX-Y', 'auto');
-		ga('send', 'pageview');
-	</script>
-	<!-- End Google Analytics -->
 
 </body>
 </html>

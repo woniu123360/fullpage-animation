@@ -6896,6 +6896,48 @@ body {
   position: relative;
   z-index: 10;
 }
+.loader {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  overflow: hidden;
+  z-index: 999;
+  opacity: 1;
+}
+.loader .line--1 {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  z-index: 10;
+  background-color: #f7f7f7;
+}
+.loader .line--2 {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  z-index: 10;
+  background-color: #f7f7f7;
+}
+.loader__container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 20;
+}
+.loader__container h1 {
+  font-family: 'CircularStd-Bold';
+  color: #1E252D;
+  font-size: 68px;
+}
 /*
 TOOLBOX
 V.02
@@ -7297,10 +7339,15 @@ html.fp-enabled,
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-.section-text .text-1,
-.section-text .text-2,
-.section-text .text-3 {
+.section-text .text--1,
+.section-text .text--2 {
   opacity: 0;
+  transform: matrix(1, 0, 0, 1, -500, 0);
+}
+.section-text .text--3,
+.section-text .text--4 {
+  opacity: 0;
+  transform: matrix(1, 0, 0, 1, 500, 0);
 }
 .section-text h1 {
   font-family: 'CircularStd-Bold';
@@ -7327,19 +7374,37 @@ html.fp-enabled,
   width: 100%;
   opacity: 0;
   transform: matrix(1, 0, 0, 1, 500, 0);
+  -ms-transform: matrix(1, 0, 0, 1, 500, 0);
+  /* IE 9 */
+  -webkit-transform: matrix(1, 0, 0, 1, 500, 0);
+  /* Safari */
 }
 .section-thumb img.img--2 {
   width: 100%;
   opacity: 0;
   transform: matrix(1, 0, 0, 1, 500, 0);
+  -ms-transform: matrix(1, 0, 0, 1, 500, 0);
+  /* IE 9 */
+  -webkit-transform: matrix(1, 0, 0, 1, 500, 0);
+  /* Safari */
 }
 .section-thumb img.img--3 {
   width: 100%;
   opacity: 0;
+  transform: matrix(1, 0, 0, 1, -500, 0);
+  -ms-transform: matrix(1, 0, 0, 1, -500, 0);
+  /* IE 9 */
+  -webkit-transform: matrix(1, 0, 0, 1, -500, 0);
+  /* Safari */
 }
 .section-thumb img.img--4 {
   width: 100%;
   opacity: 0;
+  transform: matrix(1, 0, 0, 1, -500, 0);
+  -ms-transform: matrix(1, 0, 0, 1, -500, 0);
+  /* IE 9 */
+  -webkit-transform: matrix(1, 0, 0, 1, -500, 0);
+  /* Safari */
 }
 /* =Responsive
 -----------------------------------------------------------------------------*/

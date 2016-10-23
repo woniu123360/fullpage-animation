@@ -55,7 +55,8 @@
 		<div class="line--1"></div>
 		<div class="line--2"></div>
 		<div class="loader__container">
-			<h1>Fullpage Animated</h1>
+			<h1 class="text--name">Fullpage Animated</h1>
+			<div class="text--intro"></div>
 		</div>
 	</div>
 	<!--LOADER-->
@@ -68,7 +69,7 @@
 				<div class="col-md-6 full--height">
 					<div class="section-text">
 						<div class="text--1">
-							<h1>Hello world welcome</h1>
+							<h1>Hello welcome</h1>
 							<p>Website</p>
 						</div>
 					</div>

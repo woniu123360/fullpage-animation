@@ -80,9 +80,11 @@
 	//Run
 	window.main = main;
 	$(window).load(function() {
-		TweenMax.to($('.line--1'),0.5,{width:0,delay:0.5,ease:Expo.easeInOut});
-		TweenMax.to($('.line--2'),0.5,{delay:0.5,ease:Expo.easeInOut});
-		TweenMax.to($('#loader'), 0.5,{autoAlpha:0, ease:Power3.easeInOut, delay:2});
+		TweenMax.to($(".text--name"),0.5,{opacity:1,delay:0.5,y:0,ease:Expo.easeInOut});
+		TweenMax.to($(".text--intro"),0.5,{width:'100%',delay:1,ease:Expo.easeInOut});
+		TweenMax.to($('.line--1'),0.7,{width:0,delay:2,ease:Expo.easeInOut});
+		TweenMax.to($('.line--2'),0.7,{x:1920,delay:2,ease:Expo.easeInOut});
+		TweenMax.to($('#loader'), 0.5,{autoAlpha:0, display:'none',ease:Power3.easeInOut, delay:3});
 		main.init();
 	});
 

@@ -5,7 +5,7 @@ GENERAL
 /* =Colors
 -----------------------------------------------------------------------------*/
 @color--primary:               	#FFE5DB;
-@color--secundary:          	#f7f7f7;
+@color--secundary:          	#FF5C57;
 @color--text:				#1E252D;
 @color--accent:                 	#F8F8F9;
 
@@ -76,6 +76,7 @@ html,body{
 	overflow: hidden;
 	z-index: 999;
 	opacity: 1;
+	display: block;
 
 	.line--1{
 		width: 100%;
@@ -102,4 +103,24 @@ html,body{
 		color: @color--text;
 		font-size: 68px;
 	}
+	h1.text--name{
+		opacity:0;
+		transform: matrix(1, 0, 0, 1, 00, 200);
+		-ms-transform: matrix(1, 0, 0, 1, 00, 200); /* IE 9 */
+		-webkit-transform: matrix(1, 0, 0, 1, 00, 200); /* Safari */
+	}
 }
+
+.text--intro{
+	width: 0;
+	height: 94px;
+	opacity: 1;
+	background-color: rgb(255, 255, 255);
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+
+
+

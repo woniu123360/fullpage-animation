@@ -49,4 +49,4 @@ Add main.js ejecute
 ```
 
 # Plugins
-* fullPage 2.8.6
+* fullPage 2.8.6 View Documentation [Go!](http://www.alvarotrigo.com/fullPage/)

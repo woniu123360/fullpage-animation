@@ -69,14 +69,14 @@
 				<div class="col-md-6 full--height">
 					<div class="section-text">
 						<div class="text--1">
-							<h1>Hello welcome</h1>
-							<p>Website</p>
+							<h1>Fullpage.js</h1>
+							<p>Animated</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6 full--height">
 					<div class="section-thumb">
-						<img src="images/1.png" alt="" class="img--1">
+						<img src="images/1.jpg" alt="" class="img--1">
 					</div>
 				</div>
 			</div>
@@ -88,8 +88,8 @@
 				<div class="col-md-6 full--height">
 					<div class="section-text">
 						<div class="text--2">
-							<h1>Animated Fullpage</h1>
-							<p>Scroll</p>
+							<h1>Scroll</h1>
+							<p>Transitions</p>
 						</div>
 					</div>
 				</div>
@@ -112,8 +112,8 @@
 				<div class="col-md-6 full--height">
 					<div class="section-text">
 						<div class="text--3">
-							<h1>TweenMax motion</h1>
-							<p>Graphics</p>
+							<h1>TweenMax</h1>
+							<p>Motion</p>
 						</div>
 					</div>
 				</div>
@@ -131,8 +131,8 @@
 				<div class="col-md-6 full--height">
 					<div class="section-text">
 						<div class="text--4">
-							<h1>Thanks You</h1>
-							<p>Repositorie in Github</p>
+							<h1>Download</h1>
+							<p><a href="https://github.com/jorgefrac/fullpage-animation" title="View" target="_blank">in Github</a></p>
 						</div>
 					</div>
 				</div>

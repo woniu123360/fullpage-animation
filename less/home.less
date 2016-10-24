@@ -18,23 +18,23 @@
 	transform: translateX(-50%) translateY(-50%);
 
 	.text--1{
-		color: #233fe3;
+		color: @color--text;
 		opacity: 0;
 		transform: matrix(1, 0, 0, 1, -500, 00);
 	}
 	.text--2{
-		color: #673ab7;
+		color: @color--text;
 		opacity: 0;
 		transform: matrix(1, 0, 0, 1, -500, 00);
 	}
 	.text--3,
 	{
-		color: #ff7779;
+		color: @color--text;
 		opacity: 0;
 		transform: matrix(1, 0, 0, 1, 500, 00);
 	}
 	.text--4{
-		color: #39ded1;
+		color: @color--text;
 		opacity: 0;
 		transform: matrix(1, 0, 0, 1, 500, 00);
 	}
@@ -44,14 +44,38 @@
 		margin: 0;
 	}
 	p{
-		.text;
-		color: @color--text;
-		font-size: 38px;
+		.title;
+		color: #d2bdb4;
+		font-size: 48px;
+		margin-top: 5px;
+	}
+	p a{
+		color: #d2bdb4;
+		text-decoration: none;
+		.transition;
+	}
+	p a:before{
+		content: '';
+		position: absolute;
+		width: 0;
+		height: 5px;
+		background-color: @color--secundary;
+		top: 137px;
+		left: 80px;
+		.transition;
+	}
+	p a:hover{
+		color: @color--secundary;
+		.transition;
+	}
+	p a:hover:before{
+		width: 60%;
+		.transition;
 	}
 }
 
 .section-thumb{
-	//Position
+	width: 80%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
